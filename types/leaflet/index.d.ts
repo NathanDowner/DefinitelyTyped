@@ -495,6 +495,7 @@ export interface TileLayerOptions extends GridLayerOptions {
     zoomReverse?: boolean;
     detectRetina?: boolean;
     crossOrigin?: CrossOrigin;
+    accessToken?: string;
     // [name: string]: any;
     // You are able add additional properties, but it makes this interface unchackable.
     // See: https://github.com/DefinitelyTyped/DefinitelyTyped/issues/15313
